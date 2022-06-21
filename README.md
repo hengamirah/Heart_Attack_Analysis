@@ -1,5 +1,5 @@
 ## Heart_Attack_Analysis
-The model trained 303 datasets to predict the probablity of getting Heart Attack by analysing the  patient’s age, gender, exercise induced angina, number of major vessels, chest pain indication,  resting blood pressure, cholesterol level, fasting blood sugar, resting electrocardiographic  results, and maximum heart rate achieved.
+An app is created from trained 303 datasets to predict the probablity of getting Heart Attack by analysing the patient’s age, gender, exercise induced angina, number of major vessels, chest pain indication,  resting blood pressure, cholesterol level, fasting blood sugar, resting electrocardiographic  results, and maximum heart rate achieved.
 
 Dataset credit : [UCI Machine Learning Repository: Heart Disease Data Set](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 
@@ -112,14 +112,18 @@ The best pipeline for this cardio dataset is Pipeline(steps=[('MinMaxScaler', Mi
     
   2. Classification Report :
   
-                precision    recall  f1-score   support
+                  precision    recall  f1-score   support
 
-         0.0       0.81      0.77      0.79        44
-         1.0       0.80      0.83      0.81        47
-
-    accuracy                           0.80        91
-    macro avg       0.80      0.80      0.80        91
+             0.0       0.81      0.77      0.79        44
+             1.0       0.80      0.83      0.81        47
+             
+         accuracy                           0.80        91
+         macro avg       0.80      0.80      0.80        91
     weighted avg       0.80      0.80      0.80        91
+
+# Step 8) An app is created from streamlit
+![app1](static/app1.PNG)
+![app1](static/app2.PNG)
 
 # Discussion
 1. This model accuracy is 77% which is more than 70%.
