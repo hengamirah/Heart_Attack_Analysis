@@ -118,8 +118,8 @@ The best pipeline for this cardio dataset is Pipeline(steps=[('MinMaxScaler', Mi
          1.0       0.80      0.83      0.81        47
 
     accuracy                           0.80        91
-   macro avg       0.80      0.80      0.80        91
-weighted avg       0.80      0.80      0.80        91
+    macro avg       0.80      0.80      0.80        91
+    weighted avg       0.80      0.80      0.80        91
 
 # Discussion
 1. This model accuracy is 77% which is more than 70%.
