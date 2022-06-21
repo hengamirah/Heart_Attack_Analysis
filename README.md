@@ -105,7 +105,9 @@ The best pipeline for this cardio dataset is Pipeline(steps=[('MinMaxScaler', Mi
   1. Confusion Matrix 
    [[34 10]
     [ 8 39]]
-  2.Classification Report :
+    
+  2. Classification Report :
+  
                 precision    recall  f1-score   support
 
          0.0       0.81      0.77      0.79        44
