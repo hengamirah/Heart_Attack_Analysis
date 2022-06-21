@@ -1,6 +1,10 @@
 ## Heart_Attack_Analysis
 The model trained 303 datasets to predict the probablity of getting Heart Attack by analysing the  patient’s age, gender, exercise induced angina, number of major vessels, chest pain indication,  resting blood pressure, cholesterol level, fasting blood sugar, resting electrocardiographic  results, and maximum heart rate achieved.
 
+Dataset credit : [UCI Machine Learning Repository: Heart Disease Data Set](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
+
+Dataset Description credit: [Dataset Description](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/discussion/329925)       
+
 # EDA Steps
 # Step 1) Data Loading 
 # Step 2) Data Inspection
