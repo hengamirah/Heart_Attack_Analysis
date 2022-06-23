@@ -1,3 +1,11 @@
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
 ## Heart_Attack_Analysis
 An app is created from trained 303 datasets to predict the probablity of getting Heart Attack by analysing the patient’s age, gender, exercise induced angina, number of major vessels, chest pain indication,  resting blood pressure, cholesterol level, fasting blood sugar, resting electrocardiographic  results, and maximum heart rate achieved.
 
@@ -8,7 +16,8 @@ Dataset Description credit: [Dataset Description](https://www.kaggle.com/dataset
 # EDA Steps
 # Step 1) Data Loading 
 # Step 2) Data Inspection
-# Dataset Description (+medical definitions)
+#Dataset Description (+medical definitions)
+
 Age : Age of the patient
 
 ![Age_Distplot](static/Age_Distplot.png)
@@ -107,21 +116,21 @@ The best pipeline for this cardio dataset is Pipeline(steps=[('MinMaxScaler', Mi
     
  # Step 7) Model Evaluation & Analysis
   1. Confusion Matrix 
+  ```
    [[34 10]
     [ 8 39]]
-    
+   ```
   2. Classification Report :
   
-                  precision    recall  f1-score   support
-
-             0.0       0.81      0.77      0.79        44
-             1.0       0.80      0.83      0.81        47
-             
-         accuracy                           0.80        91
-         macro avg       0.80      0.80      0.80        91
-    weighted avg       0.80      0.80      0.80        91
+                       precision    recall  f1-score   support
+                  0.0       0.81      0.77      0.79        44
+                  1.0       0.80      0.83      0.81        47
+              accuracy                          0.80        91
+              macro avg     0.80      0.80      0.80        91
+           weighted avg     0.80      0.80      0.80        91
 
 # Step 8) An app is created from streamlit
+
 ![app1](static/app1.PNG)
 ![app1](static/app2.PNG)
 
